@@ -26,3 +26,4 @@ void PORTC_init(void); //initializes PC4 -> PC6 as digital i/o  (didnt use 0-2 b
 
 
 #endif
+
