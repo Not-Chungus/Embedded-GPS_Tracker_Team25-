@@ -14,13 +14,14 @@ void delayMs(int n);
 #define E_pin 5		//PC5
 #define RW_pin 6	//PC6
 
-void Init_PortF(void);
+//void Init_PortF(void);
 void PORTB_init(void); //initializes portB      as digital i/o
 void PORTC_init(void); //initializes PC4 -> PC6 as digital i/o  (didnt use 0-2 bec JTAG)
+void PORTE_init(void);
 
-void red_led(char state);
-void green_led(char state);
-void blue_led(char state);
+//void red_led(char state);
+//void green_led(char state);
+//void blue_led(char state);
 
 
 

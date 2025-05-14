@@ -45,8 +45,36 @@ void PORTC_init(void)  //initializes PC4 -> PC6 as digital i/o------------------
 }
 //----------------------------------------------------------------------------------------
 
+void PORTE_init(void){
+    SYSCTL_RCGCGPIO_R |= 0x10; // Enable clock for Port E
+    while((SYSCTL_PRGPIO_R&0x10)==0){}; // Wait for clock to be ready
+    
+    GPIO_PORTE_LOCK_R = 0x4C4F434B; // Unlock Port E
+    GPIO_PORTE_CR_R = 0x0C; // Commit changes to Port E(2,3)
+    
+    GPIO_PORTE_AMSEL_R = 0x00; // Disable analog function 
+    GPIO_PORTE_PCTL_R = 0x00000000; // Clear PCTL register 
+    GPIO_PORTE_AFSEL_R = 0x00; // Disable alternate function 
+    
+    GPIO_PORTE_DEN_R = 0x0C;  // Enable digital function for PE2-PE3
+    GPIO_PORTE_DIR_R = 0x0C; // Set direction for PE2-PE3 as output
+}
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 void Init_PortF(void){
     SYSCTL_RCGCGPIO_R |= 0x20; // Enable clock for Port F
     while((SYSCTL_PRGPIO_R&0x20)==0){}; // Wait for clock to be ready
@@ -87,3 +115,4 @@ void blue_led(char state) {
         GPIO_PORTF_DATA_R &= ~0x04; // turn off blue LED
     }
 }
+*/

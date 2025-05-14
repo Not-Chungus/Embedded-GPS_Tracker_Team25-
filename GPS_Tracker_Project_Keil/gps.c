@@ -60,32 +60,6 @@ void GPS_read(){
 
 }
 
-/*
-void GPS_format(){
-    char noOfTokenStrings = 0 ;
-    token = strtok(GPS , ",") ;
-    do{
-    strcpy (GPS_formatted[noOfTokenStrings],token);
-    token = strtok(NULL , ",");
-    noOfTokenStrings++;
-		}while(token!=NULL);
-
-
-		if(strcmp(GPS_formatted[1],"A")==0){ //Valid
-
-    if(strcmp(GPS_formatted[3],"N")==0)
-    currentLat = atof(GPS_formatted[2]);
-    else
-    currentLat = -atof(GPS_formatted[2]);
-
-    if(strcmp(GPS_formatted[5],"E")==0)
-    currentLong = atof(GPS_formatted[4]);
-    else
-    currentLong = -atof(GPS_formatted[4]);
-		}
-		
-}
-*/
 
 void GPS_format() {
 	

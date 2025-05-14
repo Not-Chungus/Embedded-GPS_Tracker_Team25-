@@ -440,11 +440,6 @@
               <FileType>1</FileType>
               <FilePath>.\gps.c</FilePath>
             </File>
-            <File>
-              <FileName>gps_coords.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\gps_coords.c</FilePath>
-            </File>
           </Files>
         </Group>
       </Groups>
