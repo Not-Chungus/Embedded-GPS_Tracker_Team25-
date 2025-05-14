@@ -1,0 +1,43 @@
+int main(void){
+	
+	char c = 0;
+	UART0_init();
+	Init_PortF();
+	lcd_init();
+	
+	
+	while(1)
+	{
+		print_string("Enter \"r\", \"g\", \"b\" :\n\r ");
+		c = read_char();
+		print_char(c);  //echo
+		print_string("\n\r");
+		
+		switch(c)
+		{
+			case 'r':
+				blue_led(0);
+				green_led(0);
+				red_led(1);
+				break;
+			case 'g':
+				red_led(0);
+				blue_led(0);
+				green_led(1);
+				break;
+			case 'b':
+				red_led(0);
+				green_led(0);
+				blue_led(1);
+				break;
+			default:
+				red_led(0);
+				green_led(0);
+				blue_led(0);
+				break;
+		}
+		
+	}
+	
+	
+}
