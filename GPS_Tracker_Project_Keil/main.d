@@ -1,4 +1,5 @@
 .\main.o: main.c
+.\main.o: F:\College\Junior\2nd_Term\Embedded\Keil Compiler\Installation\ARM\ARMCC\bin\..\include\stdio.h
 .\main.o: gps.h
 .\main.o: tm4c123gh6pm.h
 .\main.o: F:\College\Junior\2nd_Term\Embedded\Keil Compiler\Installation\ARM\ARMCC\bin\..\include\math.h
@@ -7,5 +8,3 @@
 .\main.o: UART.h
 .\main.o: LCD.h
 .\main.o: GPIO.h
-.\main.o: gps_coords.h
-.\main.o: F:\College\Junior\2nd_Term\Embedded\Keil Compiler\Installation\ARM\ARMCC\bin\..\include\stdint.h

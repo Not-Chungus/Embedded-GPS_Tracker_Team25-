@@ -1,36 +1,33 @@
 Dependencies for Project 'GPS_Tracker', Target 'Target 1': (DO NOT MODIFY !)
-F (.\startup_TM4C123.s)(0x68139C93)(--cpu Cortex-M4.fp --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1"-I "F:\College\Junior\2nd_Term\Embedded\Keil Compiler\Installation\ARM\RV31\INC"-I "F:\College\Junior\2nd_Term\Embedded\Keil Compiler\Installation\ARM\CMSIS\Include"-I "F:\College\Junior\2nd_Term\Embedded\Keil Compiler\Installation\ARM\Inc\TI\TM4C123"--list .\startup_tm4c123.lst --xref -o .\startup_tm4c123.o --depend .\startup_tm4c123.d)
-F (.\LCD.c)(0x68179DA6)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I "F:\College\Junior\2nd_Term\Embedded\Keil Compiler\Installation\ARM\RV31\INC"-I "F:\College\Junior\2nd_Term\Embedded\Keil Compiler\Installation\ARM\CMSIS\Include"-I "F:\College\Junior\2nd_Term\Embedded\Keil Compiler\Installation\ARM\Inc\TI\TM4C123"-DTM4C123GH6PM-o .\lcd.o --omf_browse .\lcd.crf --depend .\lcd.d)
-I (LCD.h)(0x68139C92)
-I (GPIO.h)(0x68139C92)
-I (tm4c123gh6pm.h)(0x68139C93)
-F (.\tm4c123gh6pm.h)(0x68139C93)()
-F (.\main.c)(0x68250A26)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I "F:\College\Junior\2nd_Term\Embedded\Keil Compiler\Installation\ARM\RV31\INC"-I "F:\College\Junior\2nd_Term\Embedded\Keil Compiler\Installation\ARM\CMSIS\Include"-I "F:\College\Junior\2nd_Term\Embedded\Keil Compiler\Installation\ARM\Inc\TI\TM4C123"-DTM4C123GH6PM-o .\main.o --omf_browse .\main.crf --depend .\main.d)
-I (gps.h)(0x68139C92)
-I (tm4c123gh6pm.h)(0x68139C93)
+F (.\startup_TM4C123.s)(0x68250B60)(--cpu Cortex-M4.fp --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1"-I "F:\College\Junior\2nd_Term\Embedded\Keil Compiler\Installation\ARM\RV31\INC"-I "F:\College\Junior\2nd_Term\Embedded\Keil Compiler\Installation\ARM\CMSIS\Include"-I "F:\College\Junior\2nd_Term\Embedded\Keil Compiler\Installation\ARM\Inc\TI\TM4C123"--list .\startup_tm4c123.lst --xref -o .\startup_tm4c123.o --depend .\startup_tm4c123.d)
+F (.\LCD.c)(0x68250B5F)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I "F:\College\Junior\2nd_Term\Embedded\Keil Compiler\Installation\ARM\RV31\INC"-I "F:\College\Junior\2nd_Term\Embedded\Keil Compiler\Installation\ARM\CMSIS\Include"-I "F:\College\Junior\2nd_Term\Embedded\Keil Compiler\Installation\ARM\Inc\TI\TM4C123"-DTM4C123GH6PM-o .\lcd.o --omf_browse .\lcd.crf --depend .\lcd.d)
+I (LCD.h)(0x68250B5F)
+I (GPIO.h)(0x68250B5F)
+I (tm4c123gh6pm.h)(0x68250B60)
+F (.\tm4c123gh6pm.h)(0x68250B60)()
+F (.\main.c)(0x68250B60)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I "F:\College\Junior\2nd_Term\Embedded\Keil Compiler\Installation\ARM\RV31\INC"-I "F:\College\Junior\2nd_Term\Embedded\Keil Compiler\Installation\ARM\CMSIS\Include"-I "F:\College\Junior\2nd_Term\Embedded\Keil Compiler\Installation\ARM\Inc\TI\TM4C123"-DTM4C123GH6PM-o .\main.o --omf_browse .\main.crf --depend .\main.d)
+I (F:\College\Junior\2nd_Term\Embedded\Keil Compiler\Installation\ARM\ARMCC\include\stdio.h)(0x51C819B4)
+I (gps.h)(0x68250B5F)
+I (tm4c123gh6pm.h)(0x68250B60)
 I (F:\College\Junior\2nd_Term\Embedded\Keil Compiler\Installation\ARM\ARMCC\include\math.h)(0x51C819B4)
 I (F:\College\Junior\2nd_Term\Embedded\Keil Compiler\Installation\ARM\ARMCC\include\stdlib.h)(0x51C819B4)
 I (F:\College\Junior\2nd_Term\Embedded\Keil Compiler\Installation\ARM\ARMCC\include\string.h)(0x51C819B4)
-I (UART.h)(0x68139C93)
-I (LCD.h)(0x68139C92)
-I (GPIO.h)(0x68139C92)
-I (gps_coords.h)(0x68139C92)
-I (F:\College\Junior\2nd_Term\Embedded\Keil Compiler\Installation\ARM\ARMCC\include\stdint.h)(0x51C819B4)
-F (.\GPIO.c)(0x68189D4C)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I "F:\College\Junior\2nd_Term\Embedded\Keil Compiler\Installation\ARM\RV31\INC"-I "F:\College\Junior\2nd_Term\Embedded\Keil Compiler\Installation\ARM\CMSIS\Include"-I "F:\College\Junior\2nd_Term\Embedded\Keil Compiler\Installation\ARM\Inc\TI\TM4C123"-DTM4C123GH6PM-o .\gpio.o --omf_browse .\gpio.crf --depend .\gpio.d)
-I (GPIO.h)(0x68139C92)
-I (tm4c123gh6pm.h)(0x68139C93)
-F (.\UART.c)(0x6817C806)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I "F:\College\Junior\2nd_Term\Embedded\Keil Compiler\Installation\ARM\RV31\INC"-I "F:\College\Junior\2nd_Term\Embedded\Keil Compiler\Installation\ARM\CMSIS\Include"-I "F:\College\Junior\2nd_Term\Embedded\Keil Compiler\Installation\ARM\Inc\TI\TM4C123"-DTM4C123GH6PM-o .\uart.o --omf_browse .\uart.crf --depend .\uart.d)
-I (tm4c123gh6pm.h)(0x68139C93)
-I (Bit_Utilies.h)(0x68139C91)
-I (UART.h)(0x68139C93)
-I (GPIO.h)(0x68139C92)
-F (.\gps.c)(0x68139C92)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I "F:\College\Junior\2nd_Term\Embedded\Keil Compiler\Installation\ARM\RV31\INC"-I "F:\College\Junior\2nd_Term\Embedded\Keil Compiler\Installation\ARM\CMSIS\Include"-I "F:\College\Junior\2nd_Term\Embedded\Keil Compiler\Installation\ARM\Inc\TI\TM4C123"-DTM4C123GH6PM-o .\gps.o --omf_browse .\gps.crf --depend .\gps.d)
-I (gps.h)(0x68139C92)
-I (tm4c123gh6pm.h)(0x68139C93)
+I (UART.h)(0x68250B60)
+I (LCD.h)(0x68250B5F)
+I (GPIO.h)(0x68250B5F)
+F (.\GPIO.c)(0x68250B5E)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I "F:\College\Junior\2nd_Term\Embedded\Keil Compiler\Installation\ARM\RV31\INC"-I "F:\College\Junior\2nd_Term\Embedded\Keil Compiler\Installation\ARM\CMSIS\Include"-I "F:\College\Junior\2nd_Term\Embedded\Keil Compiler\Installation\ARM\Inc\TI\TM4C123"-DTM4C123GH6PM-o .\gpio.o --omf_browse .\gpio.crf --depend .\gpio.d)
+I (GPIO.h)(0x68250B5F)
+I (tm4c123gh6pm.h)(0x68250B60)
+F (.\UART.c)(0x68250B60)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I "F:\College\Junior\2nd_Term\Embedded\Keil Compiler\Installation\ARM\RV31\INC"-I "F:\College\Junior\2nd_Term\Embedded\Keil Compiler\Installation\ARM\CMSIS\Include"-I "F:\College\Junior\2nd_Term\Embedded\Keil Compiler\Installation\ARM\Inc\TI\TM4C123"-DTM4C123GH6PM-o .\uart.o --omf_browse .\uart.crf --depend .\uart.d)
+I (tm4c123gh6pm.h)(0x68250B60)
+I (Bit_Utilies.h)(0x68250B5E)
+I (UART.h)(0x68250B60)
+F (.\gps.c)(0x68250B5F)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I "F:\College\Junior\2nd_Term\Embedded\Keil Compiler\Installation\ARM\RV31\INC"-I "F:\College\Junior\2nd_Term\Embedded\Keil Compiler\Installation\ARM\CMSIS\Include"-I "F:\College\Junior\2nd_Term\Embedded\Keil Compiler\Installation\ARM\Inc\TI\TM4C123"-DTM4C123GH6PM-o .\gps.o --omf_browse .\gps.crf --depend .\gps.d)
+I (gps.h)(0x68250B5F)
+I (tm4c123gh6pm.h)(0x68250B60)
 I (F:\College\Junior\2nd_Term\Embedded\Keil Compiler\Installation\ARM\ARMCC\include\math.h)(0x51C819B4)
 I (F:\College\Junior\2nd_Term\Embedded\Keil Compiler\Installation\ARM\ARMCC\include\stdlib.h)(0x51C819B4)
 I (F:\College\Junior\2nd_Term\Embedded\Keil Compiler\Installation\ARM\ARMCC\include\string.h)(0x51C819B4)
-I (UART.h)(0x68139C93)
-F (.\gps_coords.c)(0x68178BA9)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I "F:\College\Junior\2nd_Term\Embedded\Keil Compiler\Installation\ARM\RV31\INC"-I "F:\College\Junior\2nd_Term\Embedded\Keil Compiler\Installation\ARM\CMSIS\Include"-I "F:\College\Junior\2nd_Term\Embedded\Keil Compiler\Installation\ARM\Inc\TI\TM4C123"-DTM4C123GH6PM-o .\gps_coords.o --omf_browse .\gps_coords.crf --depend .\gps_coords.d)
-I (gps_coords.h)(0x68139C92)
-I (F:\College\Junior\2nd_Term\Embedded\Keil Compiler\Installation\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+I (UART.h)(0x68250B60)
+I (LCD.h)(0x68250B5F)
+I (GPIO.h)(0x68250B5F)

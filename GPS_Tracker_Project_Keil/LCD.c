@@ -18,12 +18,11 @@ void lcd_init()
 void lcd_disp_char(u8 data) {  // Display character
 	LCD_Control_port &= ~(1 << RW_pin);
 	LCD_Control_port |= 1 << RS_pin;
-	LCD_Data_port &= ~0xFF;
-	LCD_Data_port |= data;
+	LCD_Data_port = data;
 	LCD_Control_port |= 1 << E_pin;
-	delayMs(5);
+	delayMs(1);
 	LCD_Control_port &= ~(1 << E_pin);
-	delayMs(5);
+	delayMs(1);
 }
 
 void lcd_command(u8 cmd) {  // Send command
@@ -31,9 +30,9 @@ void lcd_command(u8 cmd) {  // Send command
 	LCD_Control_port &= ~(1 << RS_pin);
 	LCD_Data_port = cmd;
 	LCD_Control_port |= 1 << E_pin;
-	delayMs(5);
+	delayMs(1);
 	LCD_Control_port &= ~(1 << E_pin);
-	delayMs(5);
+	delayMs(1);
 }
 
 void lcd_disp_string(const char *str) {  // Display string
