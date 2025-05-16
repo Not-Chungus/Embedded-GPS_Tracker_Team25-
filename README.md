@@ -1,6 +1,6 @@
 # 🛰️ Embedded GPS Tracker — Team 25
 
-An embedded system built using the **TM4C123G LaunchPad** to track real-time GPS coordinates, identify proximity to known landmarks, and display location data using UART and LCD interfaces. This project was developed for the **Introduction to Embedded Systems (CSE 211s - Spring 2025)** course at Ain Shams University.
+An embedded system built using the **TM4C123G LaunchPad** to track real-time GPS coordinates, identify proximity to known landmarks, and display location data using UART and LCD interfaces. This project was developed for the **Introduction to Embedded Systems (CSE 211s - Spring 2025)** course at Ain Shams University.(Excuse the multiple files in the repository, some are Keils build files)
 
 ## 📌 Project Objective
 
@@ -95,7 +95,7 @@ Used to synchronize sampling rate with the GPS update frequency (~1 Hz).
 ---
 
 ## 🔄 How to Run
-(Excuse the multiple files in the repository, some are Keils build files)
+
 1. Clone the repo:
 ```bash
 git clone https://github.com/Not-Chungus/Embedded-GPS_Tracker_Team25-.git
