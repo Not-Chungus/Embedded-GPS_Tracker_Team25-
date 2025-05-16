@@ -53,7 +53,7 @@ Used to synchronize sampling rate with the GPS update frequency (~1 Hz).
 ## 📸 Project Media
 
 ### ▶️ Demo Video
-👉 [Watch here](#) *(insert actual link)*
+👉 [Watch here](#) *(https://www.youtube.com/watch?v=i2bgvukuLss)*
 
 ### 🧑‍🏫 Explanation Video
 👉 [Watch here](#) *(insert actual link)*
