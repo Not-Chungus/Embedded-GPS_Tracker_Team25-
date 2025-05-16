@@ -56,7 +56,7 @@ Used to synchronize sampling rate with the GPS update frequency (~1 Hz).
 👉 [Watch here](#) *(https://www.youtube.com/watch?v=i2bgvukuLss)*
 
 ### 🧑‍🏫 Explanation Video
-👉 [Watch here](#) *(insert actual link)*
+👉 [Watch here](#) *(https://www.youtube.com/watch?v=jfDjbT6CYfE)*
 
 ### 📷 Images
 | Hardware Prototype | LCD Output |
@@ -95,7 +95,8 @@ Used to synchronize sampling rate with the GPS update frequency (~1 Hz).
 ---
 
 ## 🔄 How to Run
-
+(Excuse the multiple files in the repository, some are Keils build files)
 1. Clone the repo:
 ```bash
 git clone https://github.com/Not-Chungus/Embedded-GPS_Tracker_Team25-.git
+
